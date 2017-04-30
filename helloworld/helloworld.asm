@@ -16,3 +16,10 @@ _start:
     mov     ebx, 1      ; write to the STDOUT file
     mov     eax, 4      ; invoke SYS_WRITE (kernel opcode 4)
     int     80h
+    
+;Calling sys_exit at the end of all our programs will mean the kernel knows exactly when
+;to terminate the process and return memory back to the general pool thus avoiding an error.
+
+    mov     ebx, 0      ; return 0 status on exit - 'No Errors'
+    mov     eax, 1      ; invoke SYS_EXIT (kernel opcode 1)
+    int     80h
