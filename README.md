@@ -2,7 +2,8 @@
 ---
 
 #### Disclaimer
--I have no intention of taking my learnings of Assembly and programming in it at any great length. This is really about the learning exercise. Perhaps I’ll find a use for it going forwards.
+
+I have no intention of taking my learnings of Assembly and programming in it at any great length. This is really about the learning exercise. Perhaps I’ll find a use for it going forwards.
 ---
 
 ### My reasons for the basics of assembly
