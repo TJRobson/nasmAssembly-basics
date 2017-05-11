@@ -16,5 +16,5 @@ I have no intention of taking my learnings of Assembly and programming with it a
 ---
 
 - [tutorialspoint - Learn NASM Assembly programming language](https://www.tutorialspoint.com/assembly_programming/assembly_numbers.htm "take me there!")
-- [NASM Assembly Language Tutorials - asmtutor.com] (http://asmtutor.com/ "this one is great!")
+- [NASM Assembly Language Tutorials - asmtutor.com](http://asmtutor.com/ "this one is great")
 - [Binary Arithmetic](https://www.tutorialspoint.com/computer_logical_organization/binary_arithmetic.htm)
