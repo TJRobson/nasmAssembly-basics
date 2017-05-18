@@ -9,10 +9,10 @@
 SECTION .data
 ;command         db      '/bin/echo', 0h     ; command to execute
 ;arg1            db      'Hello World!', 0h
-;command         db      '/bin/ls', 0h       ; command to execute
-;arg1            db      '-l', 0h
-command         db      '/bin/sleep', 0h    ; command to execute
-arg1            db      '5', 0h
+command         db      '/bin/ls', 0h       ; command to execute
+arg1            db      '-l', 0h
+;command         db      '/bin/sleep', 0h    ; command to execute
+;arg1            db      '5', 0h
 arguments       dd      command
                 dd      arg1                ; arguments to pass to commandline (in this case just one)
                 dd      0h                  ; end the struct
